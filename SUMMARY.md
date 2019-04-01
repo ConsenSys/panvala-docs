@@ -1,8 +1,7 @@
 # Table of contents
 
 * [Introduction](README.md)
-* [Getting Started](getting-started/README.md)
-  * [Setting up docker](getting-started/setting-up-docker.md)
+* [Getting Started](https://github.com/ConsenSys/panvala#quickstart)
 
 ## Contract API Reference
 
@@ -15,4 +14,12 @@
 * [Proposals](frontend-integration/proposals.md)
 * [Slates](frontend-integration/slates.md)
 * [Ballot Voting](frontend-integration/ballot-voting.md)
+
+## Templates
+
+* [templates](templates/templates/README.md)
+  * [guide](templates/templates/guide.md)
+  * [api](templates/templates/api.md)
+  * [faq](templates/templates/faq.md)
+  * [changelog](templates/templates/changelog.md)
 
