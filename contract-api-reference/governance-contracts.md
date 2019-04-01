@@ -28,7 +28,10 @@ function currentBatchNumber() public view returns(uint);
 function requestPermission(bytes category, bytes metadataHash) public returns(uint);
 ```
 
-Request permission to perform the action described in the metadataHash**.** Starts a poll. Called for each proposal that is associated with the slate.
+Requests permission to perform the action described in the metadataHash**.**
+
+* starts a poll.
+* called for each proposal that is associated with the slate.
 
 Emits the following event:
 
@@ -65,7 +68,9 @@ event SlateCreated(uint slateID, address indexed recommender, bytes metadataHash
 function depositVoteTokens(uint numTokens) public returns(bool);
 ```
 
-Deposits tokens into the Gatekeeper to use in voting, specified as `voteTokenBalance[msg.sender]`. Assumes that `msg.sender` has approved the Gatekeeper to spend on their behalf.
+Deposits tokens into the Gatekeeper to use in voting, specified as `voteTokenBalance[msg.sender]`.
+
+* assumes that `msg.sender` has approved the Gatekeeper to spend on their behalf.
 
 Emits the following event:
 
