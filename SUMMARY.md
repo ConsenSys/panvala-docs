@@ -2,11 +2,16 @@
 
 * [Introduction](README.md)
 * [Getting Started](https://github.com/ConsenSys/panvala#quickstart)
+* [Terminology](terminology.md)
 
 ## Contract API Reference
 
-* [Gatekeeper](contract-api-reference/governance-contracts.md)
-* [TokenCapacitor](contract-api-reference/tokencapacitor.md)
+* [TokenCapacitor](contract-api-reference/tokencapacitor/README.md)
+  * [Calls](contract-api-reference/tokencapacitor/calls.md)
+  * [Transactions](contract-api-reference/tokencapacitor/transactions.md)
+* [Gatekeeper](contract-api-reference/gatekeeper/README.md)
+  * [Calls](contract-api-reference/gatekeeper/calls.md)
+  * [Transactions](contract-api-reference/gatekeeper/transactions.md)
 
 ## frontend integration
 
